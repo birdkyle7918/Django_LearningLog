@@ -1,6 +1,6 @@
 {% load bootstrap3 %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%">
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
     {% bootstrap_javascript %}
     </head>
 
-    <body>
+    <body style="height: 100%;margin: 0" >
     <!--Static navbar-->
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
@@ -39,12 +39,18 @@
             </div><!--/.nav-collapse-->
         </div>
     </nav>
-
-    <div class="container">
+    <div class="container" style="height: 100%;">
         <div class="page-header">
             {% block header %}{% endblock header %}
         </div>
-        <div>
+
+        <div style="float: left;border:1px solid #d8dcff;margin-right: 5px;height: 100%">
+            <div style="background-color: #f4f4f4;float: left;margin: 2px;width: auto;text-align: center;">
+            {% block menu %}{% endblock menu %}
+            </div>
+        </div>
+
+        <div style="overflow: hidden">
             {% block content %}{% endblock content %}
         </div>
     </div><!--/container-->

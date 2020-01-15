@@ -5,6 +5,6 @@
 
     <h3 style="color: red">确认要删除这条笔记吗？</h3>
     <p><a href="{% url 'learning_logs:delete_entry_confirm' entry_to_be_deleted_id %}">确认删除</a></p>
-    <p><a href="{% url 'learning_logs:topic' topic.id %}">取消</a></p>
+    <p><a href="{% url 'learning_logs:main' topic.id %}">取消</a></p>
 
 {% endblock content %}

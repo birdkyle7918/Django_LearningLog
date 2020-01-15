@@ -3,7 +3,7 @@
 {% block content %}
 
     <p>
-        <a href="{% url 'learning_logs:topic' topic.id %}">{{topic}}</a>
+        <a href="{% url 'learning_logs:main' topic.id %}">{{topic}}</a>
     </p>
     <p>添加新的笔记:</p>
     <form action="{% url 'learning_logs:new_entry' topic.id%}" method="post">

@@ -1,0 +1,25 @@
+{% extends "learning_logs/base_with_menu.html" %}
+
+{% block header %}
+    <h1>主题</h1>
+{% endblock header %}
+
+{% block menu %}
+    <h4>
+        <a href="{% url 'learning_logs:new_topic' %}" style="text-decoration:none">添加一个学习主题</a>
+    </h4>
+
+        {% for topic in topics %}
+            <div style="border: 1px solid #d8dcff">
+                <h5>
+                    <a href="{% url 'learning_logs:main' topic.id %}" style="color: black;display: block;text-decoration:none">{{topic}}</a>
+                </h5>
+            </div>
+        {% empty %}
+            <li>目前还没有任何学习主题</li>
+        {% endfor %}
+{% endblock menu %}
+
+{% block content %}
+    <h1>☜点击左侧导航查看笔记</h1>
+{% endblock content %}
