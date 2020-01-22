@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27fa5a75-1737-4d19-819f-4c69531fb965" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/learning_logs/base_with_menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/learning_logs/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/learning_logs/overall.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_logs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_logs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/learning_logs/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/learning_logs/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/learning_logs/delete_entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/learning_logs/delete_entry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/learning_logs/delete_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/learning_logs/delete_topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/learning_logs/edit_entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/learning_logs/edit_entry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/learning_logs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/learning_logs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/learning_logs/new_entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/learning_logs/new_entry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/learning_logs/topic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/learning_logs/topics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/learning_logs/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/learning_logs/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/learning_logs/overall.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/learning_logs/overall.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,6 +210,9 @@
       <workItem from="1578810666776" duration="5841000" />
       <workItem from="1578882354048" duration="19887000" />
       <workItem from="1579057901600" duration="6687000" />
+      <workItem from="1579596124311" duration="2624000" />
+      <workItem from="1579599138335" duration="1859000" />
+      <workItem from="1579676120031" duration="2925000" />
     </task>
     <servers />
   </component>
@@ -237,22 +228,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="742" y="294" width="424" height="514" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1576573076775" />
-    <state width="1533" height="69" key="GridCell.Tab.0.bottom" timestamp="1579069486881">
+    <state width="1663" height="7" key="GridCell.Tab.0.bottom" timestamp="1579683945349">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1533" height="69" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1579069486881" />
-    <state width="1533" height="69" key="GridCell.Tab.0.center" timestamp="1579069486879">
+    <state width="1663" height="7" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1579683945349" />
+    <state width="1663" height="7" key="GridCell.Tab.0.center" timestamp="1579683945348">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1533" height="69" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1579069486879" />
-    <state width="1533" height="69" key="GridCell.Tab.0.left" timestamp="1579069486878">
+    <state width="1663" height="7" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1579683945348" />
+    <state width="1663" height="7" key="GridCell.Tab.0.left" timestamp="1579683945347">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1533" height="69" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1579069486878" />
-    <state width="1533" height="69" key="GridCell.Tab.0.right" timestamp="1579069486880">
+    <state width="1663" height="7" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1579683945347" />
+    <state width="1663" height="7" key="GridCell.Tab.0.right" timestamp="1579683945349">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1533" height="69" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1579069486880" />
+    <state width="1663" height="7" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1579683945349" />
     <state width="1533" height="69" key="GridCell.Tab.1.bottom" timestamp="1579069486883">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -277,10 +268,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="249" y="116" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1576737177132" />
-    <state x="614" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579057905624">
+    <state x="614" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579676120892">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="614" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1579057905624" />
+    <state x="614" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1579676120892" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DjangoProject$manage.coverage" NAME="manage Coverage Results" MODIFIED="1576573086553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

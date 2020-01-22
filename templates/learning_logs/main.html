@@ -9,18 +9,26 @@
         <a href="{% url 'learning_logs:new_topic' %}" style="text-decoration:none">添加一个学习主题</a>
     </h4>
 
+    <script>
+        function mouse_over_the_menu() {
+
+        }
+        function mouse_out_the_menu(object) {
+
+        }
+    </script>
     {% for topic in topics %}
 
         {% ifequal topic topic_to_view %}
             <div style="border: 1px solid #d8dcff;background-color: #747474">
-                <h5>
-                    <a href="{% url 'learning_logs:main' topic.id %}" style="color: white;display: block;text-decoration:none">{{topic}}</a>
+                <h5 >
+                    <a onmouseover="style.fontWeight=750" onmouseout="style.fontWeight=400"  href="{% url 'learning_logs:main' topic.id %}" style="font-weight:400;color: white;display: block;text-decoration:none">{{topic}}</a>
                 </h5>
             </div>
         {% else %}
             <div style="border: 1px solid #d8dcff">
-                <h5>
-                    <a href="{% url 'learning_logs:main' topic.id %}" style="color:black;display: block;text-decoration:none">{{topic}}</a>
+                <h5 >
+                    <a onmouseover="style.fontWeight=750" onmouseout="style.fontWeight=400" href="{% url 'learning_logs:main' topic.id %}" style="font-weight:400;color:black;display: block;text-decoration:none">{{topic}}</a>
                 </h5>
             </div>
         {% endifequal %}
